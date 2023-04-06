@@ -24,11 +24,11 @@
     text-decoration: none;
     color: black;
     font-size: 22px;
-    
+    transition: color 0.3s;
 }
 
 #menu li a:hover {
-    color: grey
+    color: blueviolet
 }
 
 .p-50 {
