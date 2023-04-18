@@ -1,4 +1,10 @@
 /*Estilos da página index.html*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .center {
     text-align: center;
 }
@@ -9,12 +15,53 @@
 
 .container {
     display: flex;
-    flex-flow: row;
-    justify-content: center;
     align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    gap: 20%;
+    /* background-color: #f8d3a1; */
 }
 
-#menu li {
+.navbar {
+    display: flex;
+    justify-content: right;
+    gap: 4%;
+    list-style: none;
+    padding-right: 5%;
+    font-size: 30px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #852b0d;
+    transition: color 0.3s;
+}
+
+.navbar a:hover{
+    color: #826610;
+}
+
+.video{
+    width: 75%;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    display: block;
+}
+
+.tm-social {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+
+}
+
+img {
+    width: 500%;
+}
+
+/*#menu li {
     display: inline;
     padding: 20px;
     
@@ -29,27 +76,15 @@
 
 #menu li a:hover {
     color: blueviolet
-}
+}*/
 
-.p-50 {
-    padding: 50px;
-}
-
-.br-50{
-    border-radius: 50%;
-}
-
-.tm-social {
-    width: 20px;
-    height: 20px;
-}
-
-.p-20 {
-    padding: 20px;
-}
+/*.p-50 {
+    padding: 40%;
+}*/
 
 .mb-50 {
     margin-bottom: 50px;
+    
 }
 
 
